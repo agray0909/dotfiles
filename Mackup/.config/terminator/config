@@ -1,0 +1,107 @@
+[global_config]
+  always_on_top = True
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+  sticky = True
+  title_font = Sans 12
+  title_use_system_font = False
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  broadcast_off = None
+  close_term = None
+  close_window = None
+  cycle_next = None
+  cycle_prev = None
+  edit_window_title = None
+  full_screen = None
+  go_down = None
+  go_left = None
+  go_next = None
+  go_prev = None
+  go_right = None
+  go_up = None
+  group_all = None
+  group_tab = None
+  help = None
+  hide_window = F10
+  insert_number = None
+  insert_padded = None
+  move_tab_left = None
+  move_tab_right = None
+  new_terminator = None
+  new_window = None
+  page_down = <Alt>Page_Down
+  page_down_half = None
+  page_up = <Primary>Page_Up
+  page_up_half = None
+  reset = None
+  reset_clear = None
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  resize_up = None
+  rotate_ccw = None
+  rotate_cw = None
+  scaled_zoom = None
+  split_horiz = <Shift>quotedbl
+  split_vert = <Shift>percent
+  switch_to_tab_1 = <Primary>1
+  switch_to_tab_2 = <Primary>2
+  switch_to_tab_3 = <Primary>3
+  switch_to_tab_4 = <Primary>4
+  toggle_scrollbar = None
+  toggle_zoom = None
+  ungroup_all = None
+  ungroup_tab = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[dev]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:24
+      size = 577, 333
+      title = abcd
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = d74def0e-da70-46dc-ad10-f89191eb4dfa, de3bd1a3-e1a5-4eba-9a51-8fb76432384e
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[terminal2]]]
+      directory = ""
+      order = 0
+      parent = child1
+      profile = default
+      title = bash
+      type = Terminal
+      uuid = d74def0e-da70-46dc-ad10-f89191eb4dfa
+    [[[terminal3]]]
+      directory = ""
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = de3bd1a3-e1a5-4eba-9a51-8fb76432384e
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.91
+    background_image = None
+    background_type = transparent
+    copy_on_selection = True
+    font = Ubuntu Mono 12
+    scrollback_lines = 4000
+    use_system_font = False
